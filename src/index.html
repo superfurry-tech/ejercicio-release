@@ -6,12 +6,23 @@
     <title>Título de tu página</title>
     <!-- Importar Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Estilos personalizados -->
+    <style>
+        /* Cambiar el color primario a uno basado en morado */
+        .purple-theme {
+            background-color: #7e57c2; /* Cambiar este color principal según tu preferencia */
+        }
+        /* Cambiar el color del texto en la barra de navegación */
+        .purple-theme nav ul a {
+            color: #ffffff; /* Cambiar el color del texto de la barra de navegación */
+        }
+    </style>
 </head>
-<body>
+<body> <!-- Agregar la clase para el esquema de colores morados -->
 
 <!-- Navbar -->
 <nav>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper purple-theme">
         <a href="#" class="brand-logo">Logo</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#">Opción 1</a></li>
@@ -24,7 +35,7 @@
 <!-- Contenido principal -->
 <div class="container">
     <h1>Bienvenido a mi página</h1>
-    <p>Este es un ejemplo de página web utilizando Materialize CSS.</p>
+    <p>Este es un ejemplo de página web utilizando Materialize CSS con un esquema de colores morados.</p>
 </div>
 
 <!-- Importar jQuery (necesario para algunos componentes de Materialize) -->
