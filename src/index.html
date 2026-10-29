@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título de tu página</title>
+    <title>Hobby Consolas - ¡La revista de videojuegos número uno!</title>
     <!-- Importar Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Estilos personalizados -->
@@ -16,27 +16,44 @@
         .purple-theme nav ul a {
             color: #ffffff; /* Cambiar el color del texto de la barra de navegación */
         }
+        /* Estilos adicionales */
+        .hero-section {
+            padding: 100px 0;
+            text-align: center;
+            color: #7e57c2;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+        }
+        .hero-section p {
+            font-size: 1.5rem;
+        }
     </style>
 </head>
-<body> <!-- Agregar la clase para el esquema de colores morados -->
+<body>
 
 <!-- Navbar -->
 <nav>
     <div class="nav-wrapper purple-theme">
-        <a href="#" class="brand-logo">Logo</a>
+        <a href="#" class="brand-logo">Hobby Consolas</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#">Opción 1</a></li>
-            <li><a href="#">Opción 2</a></li>
-            <li><a href="#">Opción 3</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Reseñas</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Foros</a></li>
+            <li><a href="#">Suscripciones</a></li>
         </ul>
     </div>
 </nav>
 
 <!-- Contenido principal -->
-<div class="container">
-    <h1>Bienvenido a mi página</h1>
-    <p>Este es un ejemplo de página web utilizando Materialize CSS con un esquema de colores morados.</p>
-</div>
+<article class="container">
+    <!-- Sección de héroe -->
+    <section class="hero-section">
+        <h1>¡Bienvenido a Hobby Consolas!</h1>
+        <p>La revista de videojuegos número uno en español. Encuentra noticias, reseñas, videos y más.</p>
+    </section>
+</article>
 
 <!-- Importar jQuery (necesario para algunos componentes de Materialize) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
